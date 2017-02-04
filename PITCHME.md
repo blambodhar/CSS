@@ -76,9 +76,6 @@
 </pre>
 
 #VSLIDE
-<ul>
- <li id="myID" class="myClass">item 1</li>
- <li class="myClass">item 2</li>
- <li>item 3</li>
-</ul> 
+<p data-height="396" data-theme-id="0" data-slug-hash="jyKMXW" data-default-tab="result" data-user="blambodh" data-embed-version="2" data-pen-title="Basic Selector" class="codepen">See the Pen <a href="http://codepen.io/blambodh/pen/jyKMXW/">Basic Selector</a> by Bhupal Lambodhar (<a href="http://codepen.io/blambodh">@blambodh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
