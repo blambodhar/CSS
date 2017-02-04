@@ -77,62 +77,61 @@
 
 #VSLIDE
 - Relational Selectors
-<section class="content" style="
-    text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
-    margin: 20px 30px 0;
+<section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px; margin: 20px 30px 0px; display: block; overflow: hidden; top: 79.5px;" aria-hidden="true">
+  <div class="ex right" style="
+  float: right;
+  width: 200px;
+  text-align: left;
+  font-size: 80%;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.6);
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+">
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3
+        <ul>
+          <li>item a</li>
+          <li>item b</li>
+          <li>item c</li>
+        </ul>
+      </li>
+      <li class="hasaclass">hasaclass</li>
+      <li>item 5</li>
+      <li>item 6</li>
+      <li>item 7</li>
+    </ol>
+  </div>
+  <dl style="
+    margin-right: 250px;
     display: block;
-    overflow: hidden;
+    font-size: 75%;
 ">
-    <div class="ex right" style="
-    float: right;
-    width: 200px;
-    text-align: left;
-    font-size: 80%;
-    padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.6);
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    border: 1px solid #fff;
-">
-      <ol>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3
-          <ul>
-            <li>item a</li>
-            <li>item b</li>
-            <li>item c</li>
-          </ul>
-        </li>
-        <li class="hasaclass">hasaclass</li>
-        <li>item 5</li>
-        <li>item 6</li>
-        <li>item 7</li>
-      </ol>
-    </div>
-    <dl>
-      <dt style="
-    font-weight: bold;
-    margin-top: 0.5em;
-    background-color: #ccc;
-    display: inline-block;
-    margin-bottom: 2px;
-    clear: both;
+    <dt style="
+  font-weight: bold;
+  margin-top: 0.5em;
+  background-color: #ccc;
+  display: inline-block;
+  margin-bottom: 2px;
+  clear: both;
 "><span onclick="hasaclass('ul li');">ul li</span>, <br><span onclick="hasaclass('ol li');">ol li</span></dt>
-      <dd>descendant selector<br>
-        matches nested &lt;li&gt;s
-      </dd>
-      <dt onclick="hasaclass('ol > li');">ol&nbsp;&gt;&nbsp;li</dt>
-      <dd><em>child selector</em>&nbsp;<br>
-      matches &lt;li&gt;s in &lt;ol&gt; but not nested &lt;ul&gt;</dd>
-      <dt onclick="hasaclass('li.hasaclass + li');">li.hasaclass +&nbsp;li</dt>
-      <dd><em>adjacent sibling</em>&nbsp;</dd>
-      <dt onclick="hasaclass('li.hasaclass ~ li');"><strong class="new">NEW&nbsp; </strong><span style="background-color:#eee; padding:3px 20px; position:relative; left: 22px; margin-left: -20px;">(IE7+)</span><br>
-      li.hasaclass ~&nbsp;li</dt>
-      <dd><em>general sibling selector</em><br>
-      matches later siblings, but not nested.</dd>
-    </dl>
-  </section>
+    <dd>descendant selector<br>
+      matches nested &lt;li&gt;s
+    </dd>
+    <dt onclick="hasaclass('ol > li');">ol&nbsp;&gt;&nbsp;li</dt>
+    <dd><em>child selector</em>&nbsp;<br>
+    matches &lt;li&gt;s in &lt;ol&gt; but not nested &lt;ul&gt;</dd>
+    <dt onclick="hasaclass('li.hasaclass + li');">li.hasaclass +&nbsp;li</dt>
+    <dd><em>adjacent sibling</em>&nbsp;</dd>
+    <dt onclick="hasaclass('li.hasaclass ~ li');"><strong class="new">NEW&nbsp; </strong><span style="background-color:#eee; padding:3px 20px; position:relative; left: 22px; margin-left: -20px;">(IE7+)</span><br>
+    li.hasaclass ~&nbsp;li</dt>
+    <dd><em>general sibling selector</em><br>
+    matches later siblings, but not nested.</dd>
+  </dl>
+</section>
   
 
 #VSLIDE
