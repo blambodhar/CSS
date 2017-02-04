@@ -76,13 +76,6 @@
 </pre>
 
 #VSLIDE
-
-<style contenteditable>
-ul        { font-weight: bold; }
-li        { color: yellow; }
-.myClass  { color: red; }
-#myID     { color: blue; }
-</style>
 <ul>
  <li id="myID" class="myClass">item 1</li>
  <li class="myClass">item 2</li>
