@@ -76,5 +76,5 @@
 </pre>
 
 #VSLIDE
-<object data="https://raw.githubusercontent.com/blambodhar/CSS/master/files/00_basics.html"></object>
+<iframe src="https://raw.githubusercontent.com/blambodhar/CSS/master/files/00_basics.html"></iframe>
 
