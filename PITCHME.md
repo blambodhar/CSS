@@ -76,5 +76,27 @@
 </pre>
 
 #VSLIDE
-<iframe src="https://raw.githubusercontent.com/blambodhar/CSS/master/files/00_basics.html"></iframe>
+<style>
+style {display: block;}
+[contenteditable] {-webkit-user-modify: read-write-plaintext-only;}
+style:first-of-type {visibility:hidden;}
+style:last-of-type {padding: 20px; font-size: 1.5em; white-space: pre; font-family: monospace; white-space:pre; border-radius: 10px; border: 3px solid #aaa; background-color:#dedede; margin: 20px auto; width: 80%; font-family:"Courier New", Courier, monospace;}
+ol {font-family:Verdana, Geneva, sans-serif; font-size:1.2em}
+li {color: black;}
+
+ol {font-family:Verdana, Geneva, sans-serif; font-size:1.2em}
+li {color: black; font-size: 48px;}
+li li {color: green;}
+</style>
+<style contenteditable>
+ul        { font-weight: bold; }
+li        { color: yellow; }
+.myClass  { color: red; }
+#myID     { color: blue; }
+</style>
+<ul>
+ <li id="myID" class="myClass">item 1</li>
+ <li class="myClass">item 2</li>
+ <li>item 3</li>
+</ul> 
 
