@@ -76,6 +76,6 @@
 </pre>
 
 #VSLIDE
-<p data-height="396" data-theme-id="0" data-slug-hash="jyKMXW" data-default-tab="result" data-user="blambodh" data-embed-version="2" data-pen-title="Basic Selector" class="codepen">See the Pen <a href="http://codepen.io/blambodh/pen/jyKMXW/">Basic Selector</a> by Bhupal Lambodhar (<a href="http://codepen.io/blambodh">@blambodh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<iframe height='396' scrolling='no' title='Basic Selector' src='//codepen.io/blambodh/embed/jyKMXW/?height=396&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/blambodh/pen/jyKMXW/'>Basic Selector</a> by Bhupal Lambodhar (<a href='http://codepen.io/blambodh'>@blambodh</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
