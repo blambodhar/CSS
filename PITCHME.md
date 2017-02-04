@@ -64,3 +64,23 @@
    <span style="color:#9df39f">font-size</span><span style="color:#e1efff">:</span> <span style="color:#edf080">16<span style="color:#ff9d00">px</span></span><span style="color:#e1efff">;</span>
 }
 </pre>
+
+#HSLIDE
+## Selectors
+<section class="content">
+
+<pre contenteditable="" style="font-size:100%; line-height:1.5" data-gramm_id="d82887c5-17f4-dbe6-f444-ef752e664e34" data-gramm="true" spellcheck="false" data-gramm_editor="true">&lt;ul&gt;
+&lt;li id="myID" class="myClass"&gt;item 1&lt;/li&gt;
+&lt;li class="myClass"&gt;item 2&lt;/li&gt;
+&lt;li&gt;item 3&lt;/li&gt;
+&lt;/ul&gt; </pre><grammarly-btn><div style="z-index: 2; opacity: 1; transform: translate(851.25px, 374.25px);" class="_e725ae-textarea_btn _e725ae-show _e725ae-anonymous _e725ae-field_hovered" data-grammarly-reactid=".6"><div class="_e725ae-transform_wrap" data-grammarly-reactid=".6.0"><div title="Protected by Grammarly" class="_e725ae-status" data-grammarly-reactid=".6.0.0">&nbsp;</div></div></div></grammarly-btn>
+
+    <dl class="inline">
+      <dt><b class="imp">#</b>myID</dt>
+      <dd>ID</dd>
+      <dt><b class="imp">.</b>myClass</dt>
+      <dd>class</dd>
+      <dt class="imp">li</dt>
+      <dd>tag name</dd>
+    </dl>
+  </section>
