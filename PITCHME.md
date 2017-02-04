@@ -1,8 +1,10 @@
 #HSLIDE
+
 # CSS3
 <span class="primary"><strong>blambodhar</strong></span> - 02.06.2017
 
 #HSLIDE
+
 ## Introduction to CSS (Cascading Style Sheets)
 - Styles and Stylesheets <!-- .element: class="fragment" -->
 - Selectors <!-- .element: class="fragment" -->
@@ -11,6 +13,7 @@
 - CSS Media Queries <!-- .element: class="fragment" -->
 
 #HSLIDE
+
 # Styles and Stylesheets
 ## Inline Styles defined using style attribute
 <pre style="background:#002240;color:#fff"><span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">html</span><span style="color:#e1efff">></span></span>
@@ -21,7 +24,9 @@
    <span style="color:#9effff"><span style="color:#e1efff">&lt;/</span><span style="color:#9effff">body</span><span style="color:#e1efff">></span></span>
 <span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">html</span><span style="color:#e1efff">></span></span>
 </pre>
+
 #VSLIDE
+
 ## Style Element defined in head
 <pre style="background:#002240;color:#fff"><span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">html</span><span style="color:#e1efff">></span></span>
    <span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">head</span><span style="color:#e1efff">></span></span>
@@ -48,10 +53,9 @@
 <span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">html</span><span style="color:#e1efff">></span></span>
 </pre>
 <br/>
-<pre style="background:#002240;color:#fff"><span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">p</span><span style="color:#e1efff">></span></span> style.css <span style="color:#9effff"><span style="color:#e1efff">&lt;/</span><span style="color:#9effff">p</span><span style="color:#e1efff">></span></span>
-
-
-p {
-   font-size: 16px;
+<pre style="background:#002240;color:#fff">
+<p> style.css file contents </p>
+<span style="color:#9effff">p</span> <span style="color:#e1efff">{</span>
+   <span style="color:#9df39f">font-size</span><span style="color:#e1efff">:</span> <span style="color:#edf080">16<span style="color:#ff9d00">px</span></span><span style="color:#e1efff">;</span>
 }
 </pre>
