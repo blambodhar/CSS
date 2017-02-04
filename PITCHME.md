@@ -76,4 +76,5 @@
 </pre>
 
 #VSLIDE
+<object data="files/00_basics.html"></object>
 
