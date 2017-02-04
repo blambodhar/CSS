@@ -11,7 +11,6 @@
 - CSS Media Queries <!-- .element: class="fragment" -->
 
 #HSLIDE
-#VSLIDE
 ## Styles and Stylesheets
 - Inline Styles defined using style attribute <!-- .element: class="fragment" -->
 <pre style="background:#002240;color:#fff"><span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">html</span><span style="color:#e1efff">></span></span>
