@@ -76,6 +76,5 @@
 </pre>
 
 #VSLIDE
-- Play Time
-<a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
+- <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
 
