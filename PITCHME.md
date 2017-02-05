@@ -200,14 +200,4 @@
 </section>
 
 #VSLIDE
-- Specificity
-<section style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
-<ul>
-  <li><code>1-0-0</code> ID selector</li>
-  <li><code>0-1-0</code> Class selector (Also attribute selector &amp; pseudoclass)</li>
-  <li><code>0-0-1</code> Element Selector</li>
-</ul>
-</section>
-
-#VSLIDE
 - <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
