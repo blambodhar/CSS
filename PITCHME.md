@@ -200,4 +200,7 @@
 </section>
 
 #VSLIDE
-- <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
+- <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Selector I</a> 
+- <a target="_blank" href='http://codepen.io/blambodh/full/NdzpeP'>Selector II</a>
+- <a target="_blank" href='http://codepen.io/blambodh/full/NdzpoP'>Attribute Selector</a>
+- <a target="_blank" href='http://codepen.io/blambodh/full/egKvxv'>UI Selector</a>
