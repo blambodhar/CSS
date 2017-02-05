@@ -67,7 +67,7 @@
 
 #HSLIDE
 ## Selectors
-- Basic Selectors
+- Basic Selectors <!-- .element: class="fragment" -->
 <pre style="background:#002240;color:#fff;display: inline-block;"><span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">ul</span><span style="color:#e1efff">&gt;</span></span>
  <span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">li</span> <span style="color:#9effff">id</span><span style="color:#e1efff">=</span><span style="color:#3ad900">"</span><span style="color:#3ad900">myID</span><span style="color:#3ad900">"</span> <span style="color:#9effff">class</span>=<span style="color:#3ad900">"</span>myClass<span style="color:#3ad900">"</span><span style="color:#e1efff">&gt;</span></span>item 1<span style="color:#9effff"><span style="color:#e1efff">&lt;/</span><span style="color:#9effff">li</span><span style="color:#e1efff">&gt;</span></span>
  <span style="color:#9effff"><span style="color:#e1efff">&lt;</span><span style="color:#9effff">li</span> <span style="color:#9effff">class</span>=<span style="color:#3ad900">"</span>myClass<span style="color:#3ad900">"</span><span style="color:#e1efff">&gt;</span></span>item 2<span style="color:#9effff"><span style="color:#e1efff">&lt;/</span><span style="color:#9effff">li</span><span style="color:#e1efff">&gt;</span></span>
@@ -76,8 +76,8 @@
 </pre>
 
 #VSLIDE
-- Relational Selectors
-<section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px; margin: 20px 30px 0px; display: block; overflow: hidden; top: 79.5px;" aria-hidden="true">
+- Relational Selectors <!-- .element: class="fragment" -->
+- <section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px; margin: 20px 30px 0px; display: block; overflow: hidden; top: 79.5px;" aria-hidden="true">
   <div class="ex right" style="
   float: right;
   width: 200px;
@@ -131,12 +131,12 @@
     <dd><em>general sibling selector</em><br>
     matches later siblings, but not nested.</dd>
   </dl>
-</section>
+</section> <!-- .element: class="fragment" -->
  
 #VSLIDE
-- Lot's of Selectors
+- Lot's of Selectors <!-- .element: class="fragment" -->
 
-<section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
+- <section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
     <ul style="
     -webkit-column-count: 4;
     -moz-column-count: 4;
@@ -199,8 +199,24 @@
         <li>:read-only</li>
         <li>:read-write</li>
     </ul>
-</section>
+</section> <!-- .element: class="fragment" -->
 
+#VSLIDE
+- <h1 style="color: hsl(205, 87%, 50%);">Specificity: How it works</h1> <!-- .element: class="fragment" -->
+<section class="content">
+      <ul>
+        <li><code contenteditable="">1-0-0</code>: ID selector</li>
+        <li><code contenteditable="">0-1-0</code>: Class selector (Also attribute selector &amp; pseudoclass)</li>
+        <li><code contenteditable="">0-0-1</code>: Element Selector</li>
+
+ <p>The * selector, or global selector, has no value.</p>
+ <pre contenteditable="">* {} 0-0-0 </pre><grammarly-btn><div style="z-index: 2; opacity: 1; transform: translate(851.408px, 349.741px);" class="_e725ae-textarea_btn _e725ae-anonymous _e725ae-not_focused" data-grammarly-reactid=".1n"><div class="_e725ae-transform_wrap" data-grammarly-reactid=".1n.0"><div title="Protected by Grammarly" class="_e725ae-status" data-grammarly-reactid=".1n.0.0">&nbsp;</div></div></div></grammarly-btn>
+
+<p>Combinators, like ~, &gt;, and + have no value</p>
+<pre contenteditable="">ul li {} 0-0-2
+ul &gt; li {} 0-0-2</pre><grammarly-btn><div style="z-index: 2; opacity: 1; transform: translate(636.5px, 390.367px);" class="_e725ae-textarea_btn _e725ae-anonymous _e725ae-not_focused" data-grammarly-reactid=".1q"><div class="_e725ae-transform_wrap" data-grammarly-reactid=".1q.0"><div title="Protected by Grammarly" class="_e725ae-status" data-grammarly-reactid=".1q.0.0">&nbsp;</div></div></div></grammarly-btn>
+
+     </ul></section>
 
 #VSLIDE
 - <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
