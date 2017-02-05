@@ -203,17 +203,18 @@
 - Specificity: How it works?
 <section>
 <ul>
-        <li><code contenteditable="">1-0-0</code>: ID selector</li>
-        <li><code contenteditable="">0-1-0</code>: Class selector (Also attribute selector &amp; pseudoclass)</li>
-        <li><code contenteditable="">0-0-1</code>: Element Selector</li>
+        <li><code>1-0-0</code> ID selector</li>
+        <li><code>0-1-0</code> Class selector (Also attribute selector &amp; pseudoclass)</li>
+        <li><code>0-0-1</code> Element Selector</li>
 </ul>
 
  <p>The * selector, or global selector, has no value.</p>
- <pre contenteditable="">* {} 0-0-0 </pre>
+ <pre>* {} 0-0-0 </pre>
 
-<p>Combinators, like ~, &gt;, and + have no value</p>
-<pre contenteditable="">ul li {} 0-0-2
-ul &gt; li {} 0-0-2</pre>
+   <p>Combinators, like ~, &gt;, and + have no value</p>
+   <pre>ul li {} 0-0-2
+   ul &gt; li {} 0-0-2
+   </pre>
 
 </section>
 
