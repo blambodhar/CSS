@@ -134,8 +134,8 @@
 </section>
  
 #VSLIDE
-- Lot's of Selectors <!-- .element: class="fragment" -->
-<section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
+- Lot's of Selectors
+<section style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
     <ul style="
     -webkit-column-count: 4;
     -moz-column-count: 4;
@@ -201,9 +201,18 @@
 </section>
 
 #VSLIDE
-- <h1 style="color: hsl(205, 87%, 50%);">Specificity: How it works</h1>
-<section class="content">
-      <ul>
+- Specificity: How it works?
+<section style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
+    <ul style="
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4;
+    -o-column-count: 4;
+    column-count: 4;
+    font-size: 70%;
+    margin: 40px -40px 0;
+    list-style-type: none;
+">
         <li><code contenteditable="">1-0-0</code>: ID selector</li>
         <li><code contenteditable="">0-1-0</code>: Class selector (Also attribute selector &amp; pseudoclass)</li>
         <li><code contenteditable="">0-0-1</code>: Element Selector</li>
