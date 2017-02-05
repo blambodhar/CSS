@@ -137,14 +137,13 @@
 - Lot's of Selectors
 <section style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
     <ul style="
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    -ms-column-count: 4;
-    -o-column-count: 4;
-    column-count: 4;
-    font-size: 70%;
-    margin: 40px -40px 0;
-    list-style-type: none;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -ms-column-count: 4;
+  -o-column-count: 4;
+  column-count: 4;
+  font-size: 100%;
+  list-style-type: none;
 ">
         <li><em>*</em></li><em>
         <li>E</li>
