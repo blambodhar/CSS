@@ -132,7 +132,80 @@
     matches later siblings, but not nested.</dd>
   </dl>
 </section>
-  
+ 
+#VSLIDE
+- Lot's of Selectors
+
+<section class="content" style="
+    text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
+    margin: 20px 30px 0;
+    display: block;
+    overflow: hidden;
+    font-size: 140%;
+">
+    <ul style="
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4;
+    -o-column-count: 4;
+    column-count: 4;
+    font-size: 80%;
+    margin: 40px -40px 0;
+">
+        <li>*</li>
+        <li>E</li>
+        <li>.class</li>
+        <li>#id</li>
+        <li>E F</li>
+        <li>E &gt; F</li>
+        <li>E + F</li>
+        <li>E[attribute]</li>
+        <li>E[attribute=value]</li>
+        <li>E[attribute~=value]</li>
+        <li>E[attribute|=value]</li>
+        <li>:first-child</li>
+        <li>:lang()</li>
+        <li>:before</li>
+        <li>::before</li>
+        <li>::selection</li>
+        <li>:after</li>
+        <li>::after</li>
+        <li>:first-letter</li>
+        <li>::first-letter</li>
+        <li>:first-line</li>
+        <li>::first-line</li>
+        <li>E[attribute^=value]</li>
+        <li>E[attribute$=value]</li>
+        <li>E[attribute*=value]</li>
+        <li>E ~ F</li>
+        <li>:root</li>
+        <li>:last-child</li>
+        <li>:only-child</li>
+        <li>:nth-child()</li>
+        <li>:nth-last-child()</li>
+        <li>:first-of-type</li>
+        <li>:last-of-type</li>
+        <li>:only-of-type</li>
+        <li>:nth-of-type()</li>
+        <li>:nth-last-of-type()</li>
+        <li>:empty</li>
+        <li>:not()</li>
+        <li>:target</li>
+        <li>:enabled</li>
+        <li>:disabled</li>
+        <li>:checked</li>
+        <li>:default</li>
+        <li>:valid</li>
+        <li>:invalid</li>
+        <li>:in-range</li>
+        <li>:out-of-range</li>
+        <li>:required</li>
+        <li>:optional</li>
+        <li>:read-only</li>
+        <li>:read-write</li>
+    </ul>
+</section>
+
 
 #VSLIDE
 - <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
