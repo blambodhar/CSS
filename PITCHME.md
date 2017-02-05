@@ -202,19 +202,20 @@
 #VSLIDE
 - Specificity: How it works?
 <section>
-      <ul>
+<ul>
         <li><code contenteditable="">1-0-0</code>: ID selector</li>
         <li><code contenteditable="">0-1-0</code>: Class selector (Also attribute selector &amp; pseudoclass)</li>
         <li><code contenteditable="">0-0-1</code>: Element Selector</li>
+</ul>
 
  <p>The * selector, or global selector, has no value.</p>
  <pre contenteditable="">* {} 0-0-0 </pre>
 
 <p>Combinators, like ~, &gt;, and + have no value</p>
 <pre contenteditable="">ul li {} 0-0-2
-ul &gt; li {} 0-0-2</pre><grammarly-btn><div style="z-index: 2; opacity: 1; transform: translate(859px, 506.156px);" class="_e725ae-textarea_btn _e725ae-anonymous _e725ae-not_focused" data-grammarly-reactid=".28"><div class="_e725ae-transform_wrap" data-grammarly-reactid=".28.0"><div title="Protected by Grammarly" class="_e725ae-status" data-grammarly-reactid=".28.0.0">&nbsp;</div></div></div></grammarly-btn>
+ul &gt; li {} 0-0-2</pre>
 
-     </ul></section>
+</section>
 
 
      
