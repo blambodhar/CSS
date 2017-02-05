@@ -136,23 +136,18 @@
 #VSLIDE
 - Lot's of Selectors
 
-<section class="content" style="
-    text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
-    margin: 20px 30px 0;
-    display: block;
-    overflow: hidden;
-    font-size: 140%;
-">
+<section class="content future" style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
     <ul style="
     -webkit-column-count: 4;
     -moz-column-count: 4;
     -ms-column-count: 4;
     -o-column-count: 4;
     column-count: 4;
-    font-size: 80%;
+    font-size: 70%;
     margin: 40px -40px 0;
+    list-style-type: none;
 ">
-        <li>*</li>
+        <li><em>*</em></li><em>
         <li>E</li>
         <li>.class</li>
         <li>#id</li>
@@ -176,7 +171,7 @@
         <li>::first-line</li>
         <li>E[attribute^=value]</li>
         <li>E[attribute$=value]</li>
-        <li>E[attribute*=value]</li>
+        </em><li><em>E[attribute</em>=value]</li>
         <li>E ~ F</li>
         <li>:root</li>
         <li>:last-child</li>
