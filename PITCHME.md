@@ -201,24 +201,6 @@
 
 #VSLIDE
 - Specificity: How it works?
-<section style="text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;margin: 20px 30px 0px;display: block;overflow: hidden;font-size: 67%;top: 0px;" aria-hidden="true">
-<ul>
-        <li><code>1-0-0</code> ID selector</li>
-        <li><code>0-1-0</code> Class selector (Also attribute selector &amp; pseudoclass)</li>
-        <li><code>0-0-1</code> Element Selector</li>
-</ul>
-
- <p>The * selector, or global selector, has no value.</p>
- <pre>* {} 0-0-0 </pre>
-
-   <p>Combinators, like ~, &gt;, and + have no value</p>
-   <pre>ul li {} 0-0-2
-   ul &gt; li {} 0-0-2
-   </pre>
-
-</section>
-
-
      
 
 #VSLIDE
