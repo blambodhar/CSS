@@ -200,9 +200,4 @@
 </section>
 
 #VSLIDE
-- Specificity: How it works?
-     
-
-#VSLIDE
 - <a target="_blank" href='http://codepen.io/blambodh/full/jyKMXW/'>Try Basic Selector</a> 
-
